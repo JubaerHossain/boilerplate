@@ -1660,12 +1660,12 @@
   resolved "https://registry.yarnpkg.com/@types/http-errors/-/http-errors-1.8.0.tgz#682477dbbbd07cd032731cb3b0e7eaee3d026b69"
   integrity sha512-2aoSC4UUbHDj2uCsCxcG/vRMXey/m17bC7UwitVm5hn22nI8O8Y9iDpA76Orc+DWkQ4zZrOKEshCqR/jSuXAHA==
 
-"@types/i18next-fs-backend@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@types/i18next-fs-backend/-/i18next-fs-backend-1.0.0.tgz#3fb0374f4d376375b7cc1d3729bca663d104fa64"
-  integrity sha512-PotQ0NE17NavxXCsdyq9qIKZQOB7+A5O/2nDdvfbfm6/IgvvC1YUO6hxK3nIHASu+QGjO1QV5J8PJw4OL12LMQ==
+"@types/i18next-fs-backend@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@types/i18next-fs-backend/-/i18next-fs-backend-1.1.1.tgz#9a63c4ad3d8405bf437e7cc7122da917a519423d"
+  integrity sha512-rj95Ng1UmDSHiFPXOGX95c760LUOYj5MyYuxeXleWNCkeOVZJVpVKTEL6bTPeBK8A+GSnFeOnoNNkdmM2wUjTg==
   dependencies:
-    i18next "^19.7.0"
+    i18next "^20.6.1"
 
 "@types/ioredis@^4.26.4":
   version "4.26.4"
@@ -5220,17 +5220,10 @@ i18next-http-middleware@^3.1.4:
   resolved "https://registry.yarnpkg.com/i18next-http-middleware/-/i18next-http-middleware-3.1.4.tgz#edcb6caf1f6feb83cd8433bc4a3a9acb69180a4a"
   integrity sha512-OVjxnw1w9RqhrOBSsXBXbk/7kzpLu+YvaL0LZnLHTCzjs8dMG8/BuoaDxi1l30T1lUfmweb+er/xwRHV3lp0RQ==
 
-i18next@^19.7.0:
-  version "19.9.2"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-19.9.2.tgz#ea5a124416e3c5ab85fddca2c8e3c3669a8da397"
-  integrity sha512-0i6cuo6ER6usEOtKajUUDj92zlG+KArFia0857xxiEHAQcUwh/RtOQocui1LPJwunSYT574Pk64aNva1kwtxZg==
-  dependencies:
-    "@babel/runtime" "^7.12.0"
-
-i18next@^20.3.1:
-  version "20.3.2"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-20.3.2.tgz#5195e76b9e0848a1c198001bf6c7fc72995a55f1"
-  integrity sha512-e8CML2R9Ng2sSQOM80wb/PrM2j8mDm84o/T4Amzn9ArVyNX5/ENWxxAXkRpZdTQNDaxKImF93Wep4mAoozFrKw==
+i18next@^20.3.1, i18next@^20.6.1:
+  version "20.6.1"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-20.6.1.tgz#535e5f6e5baeb685c7d25df70db63bf3cc0aa345"
+  integrity sha512-yCMYTMEJ9ihCwEQQ3phLo7I/Pwycf8uAx+sRHwwk5U9Aui/IZYgQRyMqXafQOw5QQ7DM1Z+WyEXWIqSuJHhG2A==
   dependencies:
     "@babel/runtime" "^7.12.0"
 
